@@ -1,5 +1,5 @@
 Pneumonia Diagnosis using XRays from Kaggle Data Sets
 ===============
 <h3 id="Introduction"> Data Introduction </h3>
-[Google](http://www.google.com/)
-aaaaa[百度首页](http://www.baidu.com)
+The data is from Kaggle:https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
+
