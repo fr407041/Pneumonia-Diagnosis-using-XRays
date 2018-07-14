@@ -1,8 +1,12 @@
 Pneumonia Diagnosis using XRays from Kaggle Data Sets
 ===============
+[我的博客](http://blog.csdn.net/guodongxiaren "悬停显示")
 <h3 id="Introduction"> Data Introduction </h3>
-The data is from Kaggle[here]:https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
-<br>The data is from Kaggle : https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
+
+The data is from [Kaggle](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
+
+( The original data is from [here](https://data.mendeley.com/datasets/rscbjbr9sj/2) )
+
 <br>( The original data is from https://data.mendeley.com/datasets/rscbjbr9sj/2 )
 <br>Here we just use kaggle's data to analysis.
 
