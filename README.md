@@ -10,7 +10,9 @@ There are two category in kaggle's data sets : Normal and PNEUMONIA (PEUMONIA ca
 
 <h3> Data explore </h3>
 The kaggle's data have split data set into 3 folders : train、val and test.
-<br>The train folder totally have 5216 jpg files (Normal:1341，PNEUMONIA:3875). 
+<br>The train folder totally have 5216 jpg files (Normal:1341，PNEUMONIA:3875).
 <br>The val folder totally have 16 jpg files (Normal:8，PNEUMONIA:8).
-<br>The val folder totally have 624 jpg files (Normal:234，PNEUMONIA:390).
-<br> **aaaaa** dfgdg
+<br>The test folder totally have 624 jpg files (Normal:234，PNEUMONIA:390).
+
+**Remark\! The train folder is an imbalance data sets for Normal & PNEUMONIA (about 1:3)**
+<h3> Model Building </h3>
