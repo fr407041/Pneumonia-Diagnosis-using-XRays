@@ -9,6 +9,8 @@ There are two category in kaggle's data sets : Normal and PNEUMONIA (PEUMONIA ca
 ![image](https://github.com/fr407041/Pneumonia-Diagnosis-using-XRays/blob/master/image/2category.png)
 
 <h3> Data explore </h3>
-The kaggle's data have split data set into train、val and test.
+The kaggle's data have split data set into 3 folders : train、val and test.
 <br>The train folder totally have 5216 jpg files (Normal:1341，PNEUMONIA:3875). 
-<br>The val folder totally have 5216 jpg files (Normal:1341，PNEUMONIA:3875).
+<br>The val folder totally have 16 jpg files (Normal:8，PNEUMONIA:8).
+<br>The val folder totally have 624 jpg files (Normal:234，PNEUMONIA:390).
+<br> **aaaaa** dfgdg
