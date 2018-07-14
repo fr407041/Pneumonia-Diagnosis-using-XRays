@@ -87,7 +87,9 @@ preds   <- predict_generator(model,
                              test_generator,
                              steps = length(list.files(test_dir, recursive = T))
                             )
-
+predictions                                                       <- data.frame(test_generator$filenames)
+predictions$prob_pneumonia                                        <- preds[,2]
+colnames(predictions)                                             <- c('Filename', 'Prob_Pneumonia')
 predictions$Class_predicted                                       <- 'Normal'
 predictions$Class_predicted[predictions$Prob_Pneumonia >= 0.5]    <- 'Pneumonia'
 predictions$Class_actual                                          <- 'Normal'
