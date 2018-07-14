@@ -15,7 +15,7 @@ The kaggle's data have split data set into 3 folders : train、val and test.
 
 **Remark\! The train folder is an imbalance data sets for Normal & PNEUMONIA (about 1:3)**
 <h3> Data Augmentation </h3>
-Here we just use keras's function **image_data_generator**. Below is my generator R code
+Here we just use keras's function image_data_generator. Below is my generator R code
 
 ```
 image_data_generator(
@@ -80,7 +80,7 @@ Below is my training progress and it is stable for validation data sets from 7th
 
 ![Traing_Progress](https://github.com/fr407041/Pneumonia-Diagnosis-using-XRays/blob/master/image/training%20Progress.png)
 
-<h4> Classified Result </h4>
+<h3> Classified Result </h3>
 Below is my test data set classified result. 
 <br>Acquired precision(Positive predictive value/Precision/準確性) is 92.57%.
 <br>Recall(True positive rateSensitivity/Sensitivity/靈敏性) is 95.90%.
@@ -90,7 +90,7 @@ Above result is enough to compared with [Identifying Medical Diagnoses and Treat
 
 ![Traing_Progress](https://github.com/fr407041/Pneumonia-Diagnosis-using-XRays/blob/master/image/test_classified_result.png)
 
-<h4> Conclusion and Future Work </h4>
+<h3> Conclusion and Future Work </h3>
 In this example, the valiadation is only 16 jpgs which is not enough to fine tune our model's hyperparameters. But it's a simple example to learning deep learning with R. I hope my code will help someone learn keras in R. 
 <br> There are two things I want to try :
 
