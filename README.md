@@ -1,7 +1,8 @@
 Pneumonia Diagnosis using XRays from Kaggle Data Sets
 ===============
 <h3 id="Introduction"> Data Introduction </h3>
-The data is from Kaggle : https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
+The data is from Kaggle[here]:https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
+<br>The data is from Kaggle : https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
 <br>( The original data is from https://data.mendeley.com/datasets/rscbjbr9sj/2 )
 <br>Here we just use kaggle's data to analysis.
 
@@ -15,4 +16,5 @@ The kaggle's data have split data set into 3 folders : train、val and test.
 <br>The test folder totally have 624 jpg files (Normal:234，PNEUMONIA:390).
 
 **Remark\! The train folder is an imbalance data sets for Normal & PNEUMONIA (about 1:3)**
-<h3> Model Building </h3>
+<h3> Data Augmentation </h3>
+Here we just use keras's function **image_data_generator** 
