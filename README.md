@@ -32,7 +32,7 @@ image_data_generator(
 ```
 
 <h3> Model Build </h3>
-We use xception model with transfer learning.
+I use xception model with transfer learning.
 
 ```
 conv_base      <- application_xception(
