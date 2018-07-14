@@ -99,3 +99,7 @@ In this example, the valiadation is only 16 jpgs which is not enough to fine tun
 2. Study [another data set from kaggle](https://www.kaggle.com/nih-chest-xrays/data) 
 
 Finally We are all standing on the shoulders of giants.
+
+<h3> Reference </h3>
+1. https://www.kaggle.com/tentotheminus9/normal-vs-pneumonia-keras-in-r
+2. https://www.kaggle.com/aakashnain/beating-everything-with-depthwise-convolution
