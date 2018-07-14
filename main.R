@@ -95,3 +95,17 @@ history <- model %>% fit_generator(
   validation_data  = validation_generator              ,
   validation_steps = validation_step_size
 )
+
+# step 4 predict test data
+preds   <- predict_generator(model,
+                             test_generator,
+                             steps = length(list.files(test_dir, recursive = T))
+                            )
+
+predictions$Class_predicted                                       <- 'Normal'
+predictions$Class_predicted[predictions$Prob_Pneumonia >= 0.5]    <- 'Pneumonia'
+predictions$Class_actual                                          <- 'Normal'
+predictions$Class_actual[grep("PNEUMONIA", predictions$Filename)] <- 'Pneumonia'
+predictions$Class_predicted                                       <- as.factor(predictions$Class_predicted )
+predictions$Class_actual                                          <- as.factor(predictions$Class_actual )
+confusionMatrix(predictions$Class_predicted, predictions$Class_actual, positive = 'Pneumonia')
