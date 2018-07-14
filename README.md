@@ -82,9 +82,9 @@ Below is my training progress and it is stable for validation data sets from 7th
 
 <h3> Classified Result </h3>
 Below is my test data set classified result. 
-<br>Acquired precision(Positive predictive value/Precision/準確性) is 92.57%.
-<br>Recall(True positive rate/Sensitivity/靈敏性) is 95.90%.
-<br>Specificity(True negative rate/特異性) is 87.18%.
+<br>Acquired precision (Positive predictive value/Precision/準確性) is 92.57%.
+<br>Recall (True positive rate/Sensitivity/靈敏性) is 95.90%.
+<br>Specificity (True negative rate/特異性) is 87.18%.
 
 Above result is enough to compared with [Identifying Medical Diagnoses and Treatable Diseases by Image-Based Deep Learning](https://www.cell.com/cell/abstract/S0092-8674(18)30154-5) (Precision 92.8%, Recall 93.2%, Specificity 90.1%)
 
